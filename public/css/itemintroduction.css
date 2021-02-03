@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "ヒラギノ角ゴ Pro W3";
+    color: #800000;
+    font-size: 15px;
+}
+
+.creater_pic_up {
+    text-align: center;
+    font-size: 35px;
+}
+
+
+/* 様々な色合いのデニムパンツ10着からオリジナルBAGを制作*/
+
+#denim {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#denim_heading {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    word-spacing: 5px;
+}
+
+#denim_explanation {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/* 使い古して思い出の詰まった革鞄がキーケースに生まれ変わりました*/
+
+#bag {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#bag_heading {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    word-spacing: 5px;
+}
+
+#bag_explanation {
+    text-align: center;
+}
+
+#hr {
+    border-width: 1.5px 0px 0px 0px;
+    /* 太さ1px */
+    border-style: dashed;
+    /* 線種を破線に */
+    border-color: darkorange;
+    /* 線色をオレンジに */
+    height: 1px;
+    /* 高さ(※古いIE用) */
+}

@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "ヒラギノ角ゴ Pro W3";
+    color: #800000;
+    font-size: 15px;
+}
+
+
+/* much!creater.png と　お直しリメイク店を探せて集荷配送サービスも充実！*/
+
+#header {
+    display: flex
+}
+
+.subtitle {
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+
+/* 会員登録・ログイン・お気に入りShop　*/
+
+#member {
+    text-decoration: none;
+    text-align: right;
+    padding-right: 116px;
+    word-spacing: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*
+div#member::after {
+    content: '';
+    background: url(picture/line2.png) no-repeat;
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    right: 0px;
+}
+*/
+
+#line {
+    text-align: center;
+}
+
+
+/* Home～Shop検索 */
+
+#nav {
+    padding-top: 35px;
+    text-align: center;
+}
+
+
+/* スライド表示メイン画像 */
+
+#mainpicture {
+    padding-top: 25px;
+    text-align: center;
+}
+
+
+/* デニム商品と鞄の画像カラム分け */
+
+#container {
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    clear: both;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+}
+
+
+/* 大切なお品もの～リメイクまで用途に合うリメイク店を紹介します */
+
+#explanation {
+    text-align: center;
+}
+
+.reuse {
+    font-family: 'Kozuka Gothic Pr6N';
+    color: #800000;
+    font-size: 25px;
+}
+
+.introduct {
+    font-family: 'Kozuka Gothic Pr6N';
+    color: #800000;
+    font-size: 20px;
+}
+
+
+/* お直し・リメイクのお店探しはこちらから　Shop検索 */
+
+#footer {
+    text-align: center;
+}
+
+@media (max-width: 768px) {}

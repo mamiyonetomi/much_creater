@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "ヒラギノ角ゴ Pro W3";
+    color: #800000;
+    font-size: 15px;
+}

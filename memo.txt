@@ -1,0 +1,67 @@
+// コントローラーを作るコマンド
+php artisan make:controller XxxController
+TopController
+
+// サーバーモードを実行
+php artisan serve
+
+今後の作業
+・htmlからblade.phpに作成
+・blade.php と Controllerに紐付け
+・ショップ管理画面についてはデザインを考慮しない。←転職活動では見せない
+
+ショップ選択
+・チェックをオンにしたら他を非活性
+・セレクトボックスを選択したらチ
+ェックボックスの内容を変えたい
+→サンプルソースを用意
+
+<style>
+    .nonSelect {
+        display: none;
+        /* 非表示 */
+    }
+</style>
+<select id="seachbox" onchange="seach();">
+    <option value="shatsu">洋服</option>
+    <option value="kimono">着物</option>
+</select>
+<!-- 洋服用 -->
+<div id="shatsuArea">
+    <div>
+        <label><input id="shiteinai" onclick="clkShiteki();" type="checkbox" >指定なし</label>
+    </div>
+    <div>
+        <label><input type="checkbox" class="service">防カビ</label>
+    </div>
+</div>
+<!-- 着物 -->
+<div id="kimonoArea" clas="nonSelect">
+    <label><input type="checkbox">防カビ</label>
+</div>
+<script>
+    function clkShiteki() {
+        let chk = this.checked;
+        let services = document.getElementByClass('service');
+        if (chk) {
+            //  servicesをforで回してdisabledを追加
+
+        } else {
+            //  servicesをforで回してdisabledを削除
+
+        }
+    }
+
+    function seach() {
+        // セレクトボックスの値を取得
+        let selected = document.getElementById('seachbox').value;
+        switch (selected) {
+            case 'shatsu':
+                //　クラスの追加、削除
+                break;
+            case 'kimono':
+                //　クラスの追加、削除
+                break;
+        }
+    }
+</script>
