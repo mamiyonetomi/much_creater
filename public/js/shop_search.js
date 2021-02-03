@@ -8,7 +8,7 @@ function clkShiteki(i) {
     }
 }
 
-search(); // 15業目をよみこむ
+search(); // 15行目をよみこむ
 function search() {
     // セレクトボックスの値を取得
     let selected = document.getElementById('searchbox').value;
