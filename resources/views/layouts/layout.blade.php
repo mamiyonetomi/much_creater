@@ -17,14 +17,13 @@
 <body>
 
     <div id="header">
-        <a href="much_create.html"><img src="{{ asset('picture/much_creater.png') }}"></a>
-        <p class="subtitle">お直しリメイク店を探せて集荷配送サービスも充実！</p>
-    </div>
+        <a href="much_create.html"><img src="{{ asset('picture/much_creater_top.png') }}"></a>
 
-    <div id="member">
-        <a href="#">会員登録</a>
-        <a href="#">ログイン</a>
-        <a href="#">お気に入りShop</a>
+    <div class="member">
+        <a href="#"><img src="{{ asset('picture/login.png') }}"></a>
+        <a href="#"><img src="{{ asset('picture/shop_list.png') }}"></a>
+        <a href="#"><img src="{{ asset('picture/news.png') }}"></a>
+    </div>
     </div>
 
     @yield('menu')

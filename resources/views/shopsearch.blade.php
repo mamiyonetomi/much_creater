@@ -6,6 +6,7 @@
 @endcomponent
 @endsection
 
+
 @section('css')
 <link rel="stylesheet" href="{{ asset('css/shop_search.css') }}">
 
