@@ -5,18 +5,22 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "ヒラギノ角ゴ Pro W3";
-    color: #800000;
-    font-size: 15px;
+    font-family: 'Kozuka Gothic Pr6N';
+    color: #333333;
+    font-size: 12.67px;
+    background-color: #bdb6ac;
 }
 
 
 /* 共通部分*/
 
 #header {
-    display: flex
+    background-image: url(picture/creater.png);
+    background-repeat: no-repeat;
 }
 
+
+/*
 div#header::after {
     content: '';
     background: url(picture/creater.png) no-repeat;
@@ -27,11 +31,17 @@ div#header::after {
     background-size: contain;
     right: 0px;
 }
+*/
+
+.much_creater {
+    padding-top: 10px;
+    padding-left: 10px;
+}
 
 .member {
     text-decoration: none;
     text-align: right;
-    padding-right: 116px;
+    padding-right: 35px;
 }
 
 @media (max-width: 768px) {}

@@ -5,16 +5,17 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "ヒラギノ角ゴ Pro W3";
-    color: #800000;
-    font-size: 15px;
+    font-family: 'Kozuka Gothic Pr6N';
+    color: #333333;
+    font-size: 12.67px;
+    background-color: #bdb6ac;
 }
 
 .items {
     font-size: 20px;
     color: #FFF;
     font-weight: bold;
-    background-color: #800000;
+    background-color: #333333;
 }
 
 
@@ -31,7 +32,8 @@ body {
 }
 
 .menwproduct {
-    background: #F8ECD8;
+    color: #FFF;
+    background: #6e6c69;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -43,7 +45,8 @@ body {
 }
 
 .menwnoproduct {
-    background: #F1DEBE;
+    color: #FFF;
+    background: #575553;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;

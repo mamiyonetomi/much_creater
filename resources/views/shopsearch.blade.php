@@ -1,10 +1,11 @@
 @extends('layouts.layout')
 
-{{-- ボタンメニュー --}}
+{{-- ボタンメニュー 
 @section('menu')
 @component('components.menu')
 @endcomponent
 @endsection
+--}}
 
 
 @section('css')

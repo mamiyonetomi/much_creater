@@ -17,7 +17,9 @@
 <body>
 
     <div id="header">
-        <a href="much_create.html"><img src="{{ asset('picture/much_creater_top.png') }}"></a>
+        <div class="much_creater">
+            <a href="much_create.html"><img src="{{ asset('picture/much_creater_top.png') }}"></a>
+        </div>
 
     <div class="member">
         <a href="#"><img src="{{ asset('picture/login.png') }}"></a>

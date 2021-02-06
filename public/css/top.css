@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kozuka Gothic Pr6N';
+    color: #333333;
+    font-size: 12.67px;
+    background-color: #bdb6ac;
+}
+
+#style1 {
+    font-family: HGPSoeiPresenceEB;
+    font-size: 28px;
+    padding-left: 30px;
+}
+
+.style2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+#style3 {
+    font-family: HGPSoeiPresenceEB;
+    font-size: 25px;
+    padding-left: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#style4 {
+    font-family: HGPSoeiPresenceEB;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.style4_5 {
+    font-family: HGPSoeiPresenceEB;
+    font-size: 23px;
+}
+
+#style5 {
+    font-family: HGPSoeiPresenceEB;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#style6 {
+    font-family: HGPSoeiPresenceEB;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 90px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#style7 {
+    height: 100px;
+    position: fixed;
+    top: 1080px;
+    left: 15px;
+}
+
+@media (max-width: 768px) {}
