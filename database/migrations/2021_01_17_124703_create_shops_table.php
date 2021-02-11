@@ -15,6 +15,13 @@ class CreateShopsTable extends Migration
     {
         Schema::create('shops', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('name'); //文字列　name
+            $table->string('address1');
+            $table->string('address2');  
+            $table->string('address3');
+            $table->string('tell');
+            $table->string('hp');
+            $table->text('detail');//textは文字数の上限がないstring
             $table->timestamps();
         });
     }

@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kozuka Gothic Pr6N';
+    color: #333333;
+    font-size: 18.67px;
+    background-color: #bdb6ac;
+}
+
+
+/* お店の情報　*/
+
+.shopname_review {
+    font-size: 27px;
+    font-weight: 900;
+}
+
+#hr {
+    border-width: 1.5px 0px 0px 0px;
+    /* 太さ1px */
+    border-style: dashed;
+    /* 線種を破線に */
+    border-color: #333333;
+    /* 線色をD/GRAYに */
+    height: 1px;
+    /* 高さ(※古いIE用) */
+}
+
+.midasi {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.shop_picture {
+    text-align: center
+}
+
+
+/* メニュー　*/
+
+#shopmenw {
+    text-align: center;
+    color: #FFF;
+    background: #6e6c69;
+    width: 95%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+}
+
+
+/* メニューの名称　*/
+
+#menwdetails {
+    display: flex;
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+
+
+/* メニューの値段　*/
+
+#menwprice {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style-type: none;
+}

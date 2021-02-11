@@ -27,3 +27,7 @@ Route::get('/shoplist', 'ShopController@index')->name('shoplist');
 Route::get('/itemintroduction', 'ItemintroductionController@index')->name('itemintroduction');
 // https://xxxxxx.com/shopsearch
 Route::get('/shopsearch', 'ShopsearchController@index')->name('shopsearch');
+// https://xxxxxx.com/result
+Route::get('/result', 'ResultController@index')->name('result');
+// https://xxxxxx.com/shoppage
+Route::get('/shoppage', 'ShoppageController@index')->name('shoppage');

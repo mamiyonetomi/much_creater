@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kozuka Gothic Pr6N';
+    color: #333333;
+    font-size: 12.67px;
+    background-color: #bdb6ac;
+}
