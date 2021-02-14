@@ -7,6 +7,43 @@ body {
     padding: 0;
     font-family: 'Kozuka Gothic Pr6N';
     color: #333333;
-    font-size: 12.67px;
+    font-size: 20px;
     background-color: #bdb6ac;
+}
+
+.shopname_review {
+    font-size: 27px;
+    font-weight: 900;
+}
+
+#hr {
+    border-width: 1.5px 0px 0px 0px;
+    /* 太さ1px */
+    border-style: dashed;
+    /* 線種を破線に */
+    border-color: #333333;
+    /* 線色をD/GRAYに */
+    height: 1px;
+    /* 高さ(※古いIE用) */
+}
+
+#kensakukekka {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 600px;
+    padding: 10px;
+    backGround-color: #333333;
+}
+
+#boder {
+    padding-top: 20px;
+}
+
+.midasi {
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#shop_data {
+    font-size: 20px;
 }
