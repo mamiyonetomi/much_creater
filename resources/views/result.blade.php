@@ -8,7 +8,8 @@
 <div id="result">
 <p class="midasi">検索結果</p>
 <div id="kensakukekka">
-<span style="color:#fff; background-color: #333333;">1件</span>
+<span style="color:#fff; background-color: #333333;">{{ $shops->total()}}件</span>
+
 </div>
 </div>
 
@@ -16,16 +17,20 @@
 <div id="hr"></div>	
 </div>
 
+@foreach ($shops as $shop)
 <div id="shop_data">
-    <p class="shopname_review">〇〇〇工房　福岡店</p><a href="#">レビューを見る</a>
-	<p>〒 819-0001</p>
-	<p>福岡県福岡市中央区1-2-3</p>
-	<p>TEL:092-1234-5678</p>
-	<p>HP<a href="#">HPアドレスが入る</a></p>
+    <p class="shopname_review">{{$shop->name}}</p><a href="#">レビューを見る</a>
+	<p>{{$shop->addressnumber}}</p>
+	<p>{{$shop->address1}}{{$shop->address2}}{{$shop->address3}}</p>
+	<p>TEL:{{$shop->tell}}</p>
+	<p>HP<a href="#">{{$shop->hp}}</a></p>
 		
-<img src="{{ asset('picture/shop_1.png') }}">
-<p>お店の紹介文が入ります。お店の紹介文が入ります。</p>
+<img src="/storage/{{$shop->img1}}">
+<p>{{Str::limit($shop->detail, 60, '(…)' )}}</p>
 </div>
 <div id="hr"></div>	
- {{ $result->links() }}
+@endforeach
+
+	
+ {{ $shops->links() }}
 @endsection

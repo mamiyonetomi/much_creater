@@ -17,6 +17,7 @@ class CreateServicesTable extends Migration
             $table->bigIncrements('id');
             $table->bigInteger('shop_id')->unsigned();
             $table->unsignedBigInteger('item_id');
+            $table->string('price');
             $table->timestamps();
         });
     }

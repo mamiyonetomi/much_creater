@@ -10,6 +10,6 @@ class Shop extends Model
     public function services()
     {
 
-    return $this->hasMary('App\Service');
+    return $this->hasMany('App\Service');
     }
 }

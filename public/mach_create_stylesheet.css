@@ -3,12 +3,13 @@
 /* CSS Document */
 
 body {
-    margin: 0;
+    margin: auto;
     padding: 0;
     font-family: 'Kozuka Gothic Pr6N';
     color: #333333;
     font-size: 12.67px;
     background-color: #bdb6ac;
+    max-width: 678px;
 }
 
 

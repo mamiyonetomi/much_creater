@@ -30,4 +30,4 @@ Route::get('/shopsearch', 'ShopsearchController@index')->name('shopsearch');
 // https://xxxxxx.com/result
 Route::get('/result', 'ResultController@index')->name('result');
 // https://xxxxxx.com/shoppage
-Route::get('/shoppage', 'ShoppageController@index')->name('shoppage');
+Route::get('/shoppage/{shop}', 'ShopController@show')->name('shoppage');

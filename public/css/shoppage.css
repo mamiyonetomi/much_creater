@@ -49,8 +49,6 @@ body {
     width: 95%;
     margin-left: 20px;
     margin-bottom: 20px;
-    display: grid;
-    grid-template-columns: 60vw 40vw;
 }
 
 

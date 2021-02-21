@@ -14,6 +14,7 @@ class ShopController extends Controller
      */
     public function index()
     {
+    
         return view('shoplist');
     }
 
@@ -46,7 +47,7 @@ class ShopController extends Controller
      */
     public function show(Shop $shop)
     {
-        //
+     return view('shoppage',compact('shop'));
     }
 
     /**
