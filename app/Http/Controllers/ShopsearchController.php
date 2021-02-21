@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Item;
 
 class ShopsearchController extends Controller
 {
@@ -13,6 +14,7 @@ class ShopsearchController extends Controller
      */
     public function index()
     {
-        return view('shopsearch');
+        $items = Item::all();
+        return view('shopsearch', compact('items'));
     }
 }
