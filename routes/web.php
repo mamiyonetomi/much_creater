@@ -18,7 +18,7 @@
 Auth::routes();
 
 // https://xxxxxx.com
-Route::get('/top', 'TopController@index')->name('top');
+Route::get('/', 'TopController@index')->name('top');
 // https://xxxxxx.com/home
 Route::get('/home', 'HomeController@index')->name('home');
 // https://xxxxxx.com/shoplist

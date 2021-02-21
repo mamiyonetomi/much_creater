@@ -27,7 +27,7 @@
 <div id="style4">
 		<p class="style4_5">＼  まずはお店検索から  ／</p>
 		<p>サクッと検索</p>
-		<a href="#"><img src="picture/Shop_search.png"></a>
+		<a href="/shopsearch"><img src="picture/Shop_search.png"></a>
 		<div style="clear: both;"></div>
   <img src="picture/search.png">
 	</div>
@@ -44,7 +44,7 @@
 	</div>
 
     <div id="style7">
-		<a href="#"><img src="picture/click.png"></a>
+		<a href="/shopsearch"><img src="picture/click.png"></a>
 	</div>
 
 @endsection

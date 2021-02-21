@@ -18,12 +18,12 @@
 
     <div id="header">
         <div class="much_creater">
-            <a href="much_create.html"><img src="{{ asset('picture/much_creater_top.png') }}"></a>
+            <a href=" /"><img src="{{ asset('picture/much_creater_top.png') }}"></a>
         </div>
 
     <div class="member">
         <a href="#"><img src="{{ asset('picture/login.png') }}"></a>
-        <a href="#"><img src="{{ asset('picture/shop_list.png') }}"></a>
+        <a href=" /shoplist"><img src="{{ asset('picture/shop_list.png') }}"></a>
         <a href="#"><img src="{{ asset('picture/news.png') }}"></a>
     </div>
     </div>

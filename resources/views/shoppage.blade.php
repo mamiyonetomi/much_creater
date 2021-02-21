@@ -28,7 +28,8 @@
         <ui>
      @foreach($shop->services as $service)
      {{---{{$service->item->item}}---}}
-     <li><span style="width: 120px">{{$service->item->service}}</span><span>{{$service->price}}</span></li>
+     <li><span style="width: 120px">{{$service->item->service}}</span>
+        <span>{{$service->price}}</span></li>
      @endforeach  
         </ui>
        
