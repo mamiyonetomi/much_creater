@@ -19,7 +19,7 @@
 
 @foreach ($shops as $shop)
 <div id="shop_data">
-    <p class="shopname_review">{{$shop->name}}</p><a href="#">レビューを見る</a>
+    <p class="shopname_review"><a href="{{route('shoppage',$shop)}}">{{$shop->name}}</a></p><a href="#">レビューを見る</a>
 	<p>{{$shop->addressnumber}}</p>
 	<p>{{$shop->address1}}{{$shop->address2}}{{$shop->address3}}</p>
 	<p>TEL:{{$shop->tell}}</p>

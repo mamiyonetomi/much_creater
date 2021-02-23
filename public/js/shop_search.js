@@ -31,6 +31,9 @@ function selectTodofuken() {
     $("#shikuchoson").html('');
     $.getJSON("https://www.land.mlit.go.jp/webland/api/CitySearch?area=" + preCode,
         function(data) {
+            // 空の選択肢
+            $("#shikuchoson").append("<option value=''></option>");
+
             for (var i = 0; i < data.data.length; i++) {
                 $("#shikuchoson").append(
                     "<option value=" + data.data[i].name + ">" + data.data[i].name + "</option>"

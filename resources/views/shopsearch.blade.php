@@ -38,7 +38,7 @@
                 <p class="products">※複数選択可</p>
                 <div class="services">
                     @foreach ($value as $item)
-                    <label><input type="checkbox" class="service{{$key}}" value="{{$item->id}}" name="service">{{$item->service}}</label>                
+                    <label><input type="checkbox" class="service{{$key}}" value="{{$item->id}}" name="service[]">{{$item->service}}</label>                
                     @endforeach
                 </div>
             </div>
