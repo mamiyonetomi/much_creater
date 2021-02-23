@@ -25,18 +25,21 @@
 <p class="midasi">メニュー</p>
 <div id="shopmenw">
     <div id="menwdetails">
-     
-    <table>
-     @foreach($shop->services as $service)
-     <tr>
-     <td>{{$service->item->item}}</td>
-     <td>{{$service->item->service}}</td>
-    <td>{{$service->price}}</td>
-     </tr>
-     @endforeach  
-    </table>
-       
-    
+        <table>
+            <?php $before = ''?>
+            @foreach($shop->services as $service)
+                <tr>
+                    @if ($before != $service->item->item)
+                        <th colspan="2" style="text-align: left">{{$service->item->item}}</th>
+                    @endif
+                    <?php $before = $service->item->item;?>
+                </tr>
+                <tr>
+                    <td>{{$service->item->service}}</td>
+                    <td>{{$service->price}}</td>
+                </tr>
+            @endforeach
+        </table>
     </div>
 </div>
 <div id="hr"></div>
