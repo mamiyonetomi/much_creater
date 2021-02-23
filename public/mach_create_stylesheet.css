@@ -46,8 +46,4 @@ div#header::after {
     padding-right: 35px;
 }
 
-.much_creater img {
-    width: 100%;
-}
-
 @media (max-width: 768px) {}
