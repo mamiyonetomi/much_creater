@@ -31,3 +31,8 @@ Route::get('/shopsearch', 'ShopsearchController@index')->name('shopsearch');
 Route::get('/result', 'ResultController@index')->name('result');
 // https://xxxxxx.com/shoppage
 Route::get('/shoppage/{shop}', 'ShopController@show')->name('shoppage');
+
+
+if (env('APP_ENV') === 'production') {
+         URL::forceScheme('https');
+ }
