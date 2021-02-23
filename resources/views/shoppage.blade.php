@@ -25,13 +25,16 @@
 <p class="midasi">メニュー</p>
 <div id="shopmenw">
     <div id="menwdetails">
-        <ui>
+     
+    <table>
      @foreach($shop->services as $service)
-     {{---{{$service->item->item}}---}}
-     <li><span style="width: 120px">{{$service->item->service}}</span>
-        <span>{{$service->price}}</span></li>
+     <tr>
+     <td>{{$service->item->item}}</td>
+     <td>{{$service->item->service}}</td>
+    <td>{{$service->price}}</td>
+     </tr>
      @endforeach  
-        </ui>
+    </table>
        
     
     </div>
