@@ -30,7 +30,8 @@ body {
 #kensakukekka {
     font-size: 20px;
     margin-left: 10px;
-    margin-right: 600px;
+    margin-right: 0px;
+    width: 85%;
     padding: 10px;
     backGround-color: #333333;
 }

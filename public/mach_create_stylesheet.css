@@ -10,6 +10,7 @@ body {
     font-size: 12.67px;
     background-color: #bdb6ac;
     max-width: 678px;
+    margin-bottom: 30px;
 }
 
 
@@ -43,6 +44,10 @@ div#header::after {
     text-decoration: none;
     text-align: right;
     padding-right: 35px;
+}
+
+.much_creater img {
+    width: 100%;
 }
 
 @media (max-width: 768px) {}

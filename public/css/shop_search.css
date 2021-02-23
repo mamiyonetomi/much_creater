@@ -40,7 +40,8 @@ body {
 }
 
 .products {
-    padding-right: 570px
+    padding-right: 0px
+    /*padding-right: 570px */
 }
 
 .menwnoproduct {
@@ -64,12 +65,15 @@ body {
 
 #city {
     text-align: center;
-    padding-left: 20px;
+    /*padding-left: 20px;*/
 }
 
+
+/*
 .test {
     padding-left: 20px;
 }
+*/
 
 
 /* その他の指定 */
