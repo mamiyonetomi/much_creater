@@ -146,5 +146,17 @@ class ServicesTableSeeder extends Seeder
       Service::create(['shop_id' => 9,'item_id' => 26,'price' => '要相談']);
       Service::create(['shop_id' => 9,'item_id' => 27,'price' => '¥1000']);
       Service::create(['shop_id' => 9,'item_id' => 28,'price' => '¥1000']);
+      Service::create(['shop_id' => 1,'item_id' => 1,'price' => '¥3000']);
+      Service::create(['shop_id' => 1,'item_id' => 2,'price' => '¥2500']);
+      Service::create(['shop_id' => 1,'item_id' => 3,'price' => '¥4000']);
+      Service::create(['shop_id' => 1,'item_id' => 4,'price' => '¥1000']);
+      Service::create(['shop_id' => 1,'item_id' => 5,'price' => '¥300']);
+      Service::create(['shop_id' => 1,'item_id' => 6,'price' => '¥2000']);
+      Service::create(['shop_id' => 1,'item_id' => 7,'price' => '¥3000']);
+      Service::create(['shop_id' => 1,'item_id' => 8,'price' => '¥10000']);
+      Service::create(['shop_id' => 1,'item_id' => 9,'price' => '¥2000']);
+      Service::create(['shop_id' => 1,'item_id' => 10,'price' => '¥1000']);
+      Service::create(['shop_id' => 1,'item_id' => 11,'price' => '¥500']);
+      Service::create(['shop_id' => 1,'item_id' => 12,'price' => '要相談']);
     }
 }
